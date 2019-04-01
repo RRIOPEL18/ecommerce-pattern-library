@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="grid pad-t-1-2">
+
+  <div class=" unit [xs-1 s-1 m-1-2 l-1-2] gutter-1-4">
+
+    <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+      {% pattern forms/name %}
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+      {% pattern forms/street-address %}
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-1 l-1] push">
+      {% pattern forms/email %}
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-1 l-1] push">
+      {% pattern forms/unit-number %}
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-1 l-1] push">
+      {% pattern forms/province %}
+    </div>
+
+  </div>
+
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2] push gutter-1-4">
+
+    <div class="unit [ xs-1 s-1 m-1 l-1] push">
+      {% pattern forms/creditcardnumber %}
+    </div>
+
+  </div>
+
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] unit-m-centered">
+    <div class="unit [ xs-1 s-1 m-1 l-1]">
+      {% pattern forms/receive-news %}
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-1 l-1] push">
+      {% pattern forms/terms %}
+    </div>
+  </div>
+
+  <div class="unit [ xs-1 s-1 m-1 l-1] text-center push">
+    {% pattern buttons/basic %}
+  </div>
+</div>
