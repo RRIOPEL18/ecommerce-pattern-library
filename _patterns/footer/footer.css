@@ -13,3 +13,7 @@ footer {
 .event {
   text-decoration: underline;
 }
+
+.terms {
+  color: var(--color-primary-light);
+}
