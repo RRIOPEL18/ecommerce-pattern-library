@@ -11,27 +11,29 @@
 <table>
     <thead>
       <tr class="center gutter">
-        <th scope="col">Fabric</th>
+        <th scope="col" colspan="2">Fabric</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td colspan="3">Bamboo</td>
-        <td colspan="3">50%</td>
+        <td>Bamboo</td>
+        <td>50%</td>
       </tr>
       <tr>
-        <td colspan="3">Cotton</td>
-        <td colspan="3">25%</td>
+        <td>Cotton</td>
+        <td>25%</td>
       </tr>
       <tr>
-        <td colspan="3">Silk</td>
-        <td colspan="3">25%</td>
+        <td>Silk</td>
+        <td>25%</td>
       </tr>
     </tbody>
     <tfoot>
       <tr class="center">
-        <td colspan="3">{% pattern forms/quantity %}</td>
-        <td colspan="3"><a class="addtocart island-1-2 btn max-width text-center" href="/checkout-form/">Add to Cart</a></td>
+        <td colspan="2">{% pattern forms/quantity %}</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="text-center"><a class="addtocart island-1-2 btn max-width text-center" href="/checkout-form/">Add to Cart</a></td>
       </tr>
     </tfoot>
   </table>
