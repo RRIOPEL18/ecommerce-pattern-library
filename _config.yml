@@ -31,3 +31,4 @@ defaults:
       path: _products
     values:
       layout: product
+      current_page: products

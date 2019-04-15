@@ -9,3 +9,20 @@
 .main-logo {
   width: 275px;
 }
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav .current {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 38em) {
+.nav {
+  text-align: right;
+
+}
+
+
+}
