@@ -16,4 +16,5 @@ footer {
 
 .terms {
   color: var(--color-primary-light);
+  text-decoration: none;
 }
