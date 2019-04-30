@@ -18,3 +18,7 @@ footer {
   color: var(--color-primary-light);
   text-decoration: none;
 }
+
+.embed-1by1 {
+  padding-top: 0%;
+}
